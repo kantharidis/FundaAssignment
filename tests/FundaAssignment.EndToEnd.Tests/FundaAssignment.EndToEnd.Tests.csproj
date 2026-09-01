@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\FundaAssignment.Cli\FundaAssignment.Cli.csproj" />
+  </ItemGroup>
+
+</Project>

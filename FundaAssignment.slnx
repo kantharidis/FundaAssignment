@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/solution items/">
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/FundaAssignment.Domain/FundaAssignment.Domain.csproj" />
+    <Project Path="src/FundaAssignment.Application/FundaAssignment.Application.csproj" />
+    <Project Path="src/FundaAssignment.Infrastructure/FundaAssignment.Infrastructure.csproj" />
+    <Project Path="src/FundaAssignment.Cli/FundaAssignment.Cli.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/FundaAssignment.Domain.UnitTests/FundaAssignment.Domain.UnitTests.csproj" />
+    <Project Path="tests/FundaAssignment.Application.UnitTests/FundaAssignment.Application.UnitTests.csproj" />
+    <Project Path="tests/FundaAssignment.Infrastructure.Tests/FundaAssignment.Infrastructure.Tests.csproj" />
+    <Project Path="tests/FundaAssignment.EndToEnd.Tests/FundaAssignment.EndToEnd.Tests.csproj" />
+    <Project Path="tests/FundaAssignment.Architecture.Tests/FundaAssignment.Architecture.Tests.csproj" />
+  </Folder>
+</Solution>

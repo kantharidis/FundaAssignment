@@ -1,0 +1,9 @@
+{
+  "AccountStatus": 0,
+  "EmailNotConfirmed": false,
+  "ValidationFailed": true,
+  "ValidationReport": { "Message": "Rate limit exceeded" },
+  "Objects": [],
+  "Paging": { "AantalPaginas": 0, "HuidigePagina": 1 },
+  "TotaalAantalObjecten": 0
+}

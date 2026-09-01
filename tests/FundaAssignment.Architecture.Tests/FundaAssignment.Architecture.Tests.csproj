@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\FundaAssignment.Domain\FundaAssignment.Domain.csproj" />
+    <ProjectReference Include="..\..\src\FundaAssignment.Application\FundaAssignment.Application.csproj" />
+    <ProjectReference Include="..\..\src\FundaAssignment.Infrastructure\FundaAssignment.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\FundaAssignment.Cli\FundaAssignment.Cli.csproj" />
+  </ItemGroup>
+
+</Project>

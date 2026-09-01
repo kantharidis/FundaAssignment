@@ -1,0 +1,9 @@
+{
+  "AccountStatus": 0,
+  "EmailNotConfirmed": false,
+  "ValidationFailed": false,
+  "ValidationReport": null,
+  "Objects": [],
+  "Paging": { "AantalPaginas": 1, "HuidigePagina": 1 },
+  "TotaalAantalObjecten": 0
+}

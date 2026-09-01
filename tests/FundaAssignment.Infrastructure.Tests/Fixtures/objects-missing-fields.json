@@ -1,0 +1,15 @@
+{
+  "AccountStatus": 0,
+  "EmailNotConfirmed": false,
+  "ValidationFailed": false,
+  "ValidationReport": null,
+  "Objects": [
+    { "Id": "a99813e5-cf01-49bf-8260-56ece054f859", "MakelaarId": 24585, "MakelaarNaam": "Bert van Vulpen makelaars" },
+    { "Id": "b0000000-0000-0000-0000-000000000002", "MakelaarId": null, "MakelaarNaam": "No agent id" },
+    { "Id": "b0000000-0000-0000-0000-000000000003", "MakelaarId": 100, "MakelaarNaam": "   " },
+    { "Id": "not-a-guid", "MakelaarId": 101, "MakelaarNaam": "Unusable identifier" },
+    { "Id": "b0000000-0000-0000-0000-000000000005", "MakelaarId": 102, "MakelaarNaam": "  Padded Makelaardij  " }
+  ],
+  "Paging": { "AantalPaginas": 1, "HuidigePagina": 1 },
+  "TotaalAantalObjecten": 5
+}
