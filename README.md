@@ -173,7 +173,7 @@ separates them:
   references that are declared but unused, so an unwanted `ProjectReference` would stay invisible
   to reflection until somebody wrote code against it.
 - **The wire contracts model 3 of roughly 110 fields.** System.Text.Json skips the rest without
-  materialising them, so parsing cost scales with what we model - and none of the feed's awkward
+  materializing them, so parsing cost scales with what we model - and none of the feed's awkward
   corners (`/Date(...)/` timestamps, `Soort-aanbod`, HTML inside the price fields) needs handling
   at all.
 - **Mapping is hand-written.** There are exactly two mapping seams, and they are the code most
@@ -199,3 +199,7 @@ separates them:
 - The retry predicate treats any refusal as retryable. Once a real throttled response has been
   captured it should narrow to what was actually observed.
 - `pagesize` stays at funda's documented 25.
+
+## AI Usage
+
+Used Claude Code throughout, I focused mainly on architecture and setting the layering. I worked the design though with Opus, handling it as pair programmer and writing my ideas. That produced a plan which I ran and reviewed each step throughout. Claude generated most of the test cases and data presentation on console. That allowed me to keep my attention where it mattered, the boundaries, architecture and rate limiting.
